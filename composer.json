@@ -1,0 +1,19 @@
+{
+    "name": "irekk/sma",
+    "description": "SMA API connector",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Irek Kubicki",
+            "email": "irek@ixdude.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+            "Irekk\\SMA\\": "src/SMA"
+        }
+	},
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
