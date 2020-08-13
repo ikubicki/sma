@@ -2,6 +2,7 @@
     "name": "irekk/sma",
     "description": "SMA API connector",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Irek Kubicki",
