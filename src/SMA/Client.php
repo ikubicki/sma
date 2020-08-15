@@ -267,10 +267,6 @@ class Client
                 $values[$key] = $device[$key][1][0]['val'];
             }
         }
-         // converts kWh into Wh
-        if (!empty($values[self::VALUE_TOTAL_YIELD])) {
-            $values[self::VALUE_TOTAL_YIELD] *= 1000;
-        }
 
         // SMA::VALUE_TODAY_YIELD is not supported in Tripower units.
         // It uses logger values to calculate production instead.
